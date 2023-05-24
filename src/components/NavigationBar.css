@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Helios";
+  src: url(../assets/font/Helios.ttf);
+}
+
+.logo {
+  height: 40px;
+}
+
+.navLink {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Helios";
+  text-transform: uppercase;
+  text-shadow: white 0 0 20px;
+}
+
+.Navbar {
+  background-color: black;
+}

@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.homeContent {
+  background-image: url(https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyNjE3MjIx/particlesjs-examples.gif);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  margin-top: 65px;
+}
+.intro h1 {
+  font-family: "Titan One", cursive;
+  color: rgb(129, 12, 129);
+  font-size: 55px;
+}
+.intro h1 span {
+  color: black;
+  font-size: 60px;
+}
+.intro h3 {
+  font-family: "Helios";
+  font-size: 25px;
+  text-align: center;
+}
+
+.nickImg {
+  width: 500px;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.intro .btn-abtme {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icons {
+  margin-top: 35px;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+}

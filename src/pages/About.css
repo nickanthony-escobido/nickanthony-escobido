@@ -1,0 +1,51 @@
+.aboutContent {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abtmeImg {
+  width: 500px;
+}
+
+.abtmeInfo h1 {
+  font-family: "Titan One", cursive;
+  font-size: 35px;
+}
+.abtmeInfo h1 span {
+  font-family: "Titan One", cursive;
+  color: rgb(129, 12, 129);
+  font-size: 38px;
+}
+
+.abtmeInfo h5 {
+  text-align: center;
+}
+
+.abtmeInfo h4 {
+  padding-top: 15px;
+  text-align: justify;
+  text-indent: 75px;
+  font-family: cursive;
+}
+
+.abtmeInfo h3 {
+  font-family: cursive;
+  background-color: aqua;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+.abtmeInfo h3 span {
+  font-family: "Helios";
+  background-color: aqua;
+}
+
+.abtmeInfo .abtmeBtn {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-family: "Helios";
+}
