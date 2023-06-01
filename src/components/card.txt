@@ -1,0 +1,55 @@
+import { Card, Col, Row } from "react-bootstrap";
+import Bugslayer from "../assets/images/first_web.png";
+import Tables from "../assets/images/tables.png";
+import Nft from "../assets/images/nft.png";
+import Form from "../assets/images/form.png";
+import ExploreBatanes from "../assets/images/mini-project.png";
+import Calculator from "../assets/images/calculator.png";
+
+const CardList = () => {
+  const cardData = [
+    {
+      id: 1,
+      title: "Bugslayer",
+      imageURL: Bugslayer,
+      href: "https://nickanthony-escobido.github.io/first_web_proj/",
+    },
+    {
+      id: 2,
+      title: "Tables",
+      imageURL: Tables,
+    },
+    { id: 3, title: "Simple Card UI", imageURL: Nft },
+    { id: 4, title: "Form", imageURL: Form },
+    {
+      id: 5,
+      title: "Explore Batanes",
+      imageURL: ExploreBatanes,
+    },
+    {
+      id: 6,
+      title: "Calculator",
+      imageURL: Calculator,
+    },
+  ];
+
+  return (
+    <div className="card-list">
+      <Row>
+        {cardData.map((card) => (
+          <Col key={card.id}>
+            <Card>
+              <Card.Img src={card.imageURL} variant="top" />
+              <Card.Body>
+                <Card.Title>{card.title}</Card.Title>
+                <Card.Text>{card.text}</Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </div>
+  );
+};
+
+export default CardList;

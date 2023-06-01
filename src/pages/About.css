@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
 .aboutContent {
   height: 90vh;
   display: flex;
@@ -28,7 +30,7 @@
   padding-top: 15px;
   text-align: justify;
   text-indent: 75px;
-  font-family: cursive;
+  font-family: "Caveat";
 }
 
 .abtmeInfo h3 {
